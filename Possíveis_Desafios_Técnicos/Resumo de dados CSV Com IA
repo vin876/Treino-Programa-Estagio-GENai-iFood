@@ -1,0 +1,19 @@
+Criar um agente que resuma dados CSV usando IA:
+
+Enunciado:
+
+Dado um arquivo CSV com colunas:
+restaurante
+tempo_entrega
+nota_cliente
+valor_pedido
+
+Crie um agente Python que:
+
+Leia o CSV
+Gere um resumo automático usando Gemini
+
+Retorne:
+1- média do tempo de entrega
+2- correlação entre nota e tempo
+3- sugestões inteligentes (IA)
