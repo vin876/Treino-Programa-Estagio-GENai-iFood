@@ -43,3 +43,8 @@ Gere:
 2) Possíveis causas  
 3) Ação recomendada
 """
+
+model = genai.GenerativeModel("gemini-1.5-flash")
+resposta = model.generate_content(prompt)
+
+print(resposta.text)
