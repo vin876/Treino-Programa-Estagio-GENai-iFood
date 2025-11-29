@@ -30,3 +30,16 @@ df = pd.read_csv("entregas.csv")
 # Estatísticas básicas
 media_tempo = df["tempo_entrega"].mean()
 correlacao = df["tempo_entrega"].corr(df["nota_cliente"])
+
+# Prompt estruturado
+prompt = f"""
+Analise os seguintes dados operacionais do iFood:
+
+- Média do tempo de entrega: {media_tempo:.2f} minutos
+- Correlação tempo x nota do cliente: {correlacao:.2f}
+
+Gere:
+1) Insight principal  
+2) Possíveis causas  
+3) Ação recomendada
+"""
