@@ -51,3 +51,18 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 resposta = model.generate_content(prompt)
 
 print(resposta.text)
+
+
+########################################################
+
+Algoritmo:
+
+1- Python lê o dado
+
+2- pandas calcula estatísticas
+
+3- prompt estruturado
+
+4- Gemini analisa e devolve texto
+
+5- Salvar o insight
