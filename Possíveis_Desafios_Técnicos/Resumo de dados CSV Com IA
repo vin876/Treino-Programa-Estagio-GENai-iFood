@@ -22,3 +22,7 @@ Retorne:
 Possível solução:
 import pandas as pd
 import google.generative as genai
+
+genai.configure(api_key="Chave")
+
+df = pd.read_csv("entregas.csv")
