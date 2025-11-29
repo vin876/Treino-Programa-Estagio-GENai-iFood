@@ -19,6 +19,9 @@ Retorne:
 3- sugestões inteligentes (IA)
 
 
+
+##########################################################
+
 Possível solução:
 import pandas as pd
 import google.generative as genai
