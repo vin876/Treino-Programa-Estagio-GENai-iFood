@@ -1,0 +1,17 @@
+import pandas as pd
+
+df = pd.read_csv("../data/entregas_exemplo.csv")
+
+# 1. Tempo médio de entrega
+tempo_medio = df["tempo_entrega"].mean()
+print("Tempo médio:", tempo_medio)
+
+# 2. Cidade com maior número de pedidos
+ranking = df["cidade"].value_counts()
+print("Ranking de cidades:")
+print(ranking)
+
+# 3. Lucro total
+df["lucro"] = df["preco"] - df["custo"]
+lucro_total = df["lucro"].sum()
+print("Lucro total:", lucro_total)
