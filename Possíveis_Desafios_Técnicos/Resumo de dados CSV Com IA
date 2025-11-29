@@ -17,3 +17,8 @@ Retorne:
 1- média do tempo de entrega
 2- correlação entre nota e tempo
 3- sugestões inteligentes (IA)
+
+
+Possível solução:
+import pandas as pd
+import google.generative as genai
