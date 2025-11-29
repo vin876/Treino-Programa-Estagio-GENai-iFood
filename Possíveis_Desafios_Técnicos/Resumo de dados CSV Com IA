@@ -26,3 +26,7 @@ import google.generative as genai
 genai.configure(api_key="Chave")
 
 df = pd.read_csv("entregas.csv")
+
+# Estatísticas básicas
+media_tempo = df["tempo_entrega"].mean()
+correlacao = df["tempo_entrega"].corr(df["nota_cliente"])
