@@ -1,0 +1,46 @@
+Você trabalha como Estagiário GenAI em um time que usa dados para gerar insights sobre entregas e restaurantes no iFood.
+O time te deu dois arquivos CSV:
+
+📁 Arquivo 1 — deliveries.csv
+delivery_id	    restaurant_id	     delivery_time_min	    status	               price
+1	              10	               32	                    delivered	             38.90
+2	              11	               54	                    delivered	             22.50
+3	              12	               12	                    canceled	             0
+4	              13	               40	                    delivered	             48.00
+5	              14	               29	                    delivered	             35.00
+
+
+📁 Arquivo 2 — restaurants.csv
+restaurant_id	    name	          city
+10	              Burguer Max	    Campinas
+11	              Hot Dog Up	    Sumaré
+12	              MassaLeve	      Paulínia
+
+
+Enunciado por partes: 
+PARTE 1 
+Escreva uma query SQL que retorne:
+Nome do restaurante;
+Cidade;
+Quantidade de entregas entregues;
+Tempo médio de entrega;
+Receita total somatório de price;
+Ordene por maior receita.
+
+
+PARTE 2 
+Carregue os dois CSVs, combine-os e encontre:
+O restaurante com o maior tempo médio de entrega
+O restaurante com a maior receita
+A média geral do tempo de entrega
+
+
+
+PARTE 3 
+Explique como você usaria um LLM  para gerar insights automáticos desses dados no estilo do iFood.
+
+
+
+PARTE 4
+Suponha que o tempo médio de entrega subiu 20% em Campinas.
+Liste 3 hipóteses possíveis e como você investigaria usando SQL e Python.
