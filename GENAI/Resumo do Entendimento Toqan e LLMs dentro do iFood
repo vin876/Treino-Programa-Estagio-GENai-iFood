@@ -1,0 +1,65 @@
+Como o iFood usa LLMs e o Toqan (O que eu entendi com base em estudos e dados analisados):
+
+O Toqan é a plataforma interna do iFood para criar e coordenar agentes inteligentes.
+Pensando assim em um ambiente onde é possivel montar: fluxos de automação usando IA + APIs + Dados, tudo trabalhando junto.
+
+O Toqan permite:
+1- Criar agentes autônomos que executam etapas sozinhos.
+2- Montar workflows inteligentes, como ler dados, gerar insight, acionar API,  registrar logs.
+3- Integrar APIs internas, eventos e microserviços.
+4- Reutilizar fluxos prontos (recipes).
+5- Documentar cada etapa automaticamente.
+
+O Toqan transforma IA em automação real.
+6- Ele junta LLMs, dados e engenharia num único fluxo.
+7- Ele favorece experimentação rápida e ciclos curtos — parte forte da cultura iFood.
+
+
+
+Análise de dados:
+1- Interpretar bases internas.
+2- Detectar padrões.
+3- Explicar métricas e sugerir ações de negócio.
+4- Gerar resumos e relatórios automáticos.
+Exemplo: “Quais restaurantes estão caindo de performance?” -> o agente lê os dados e responde.
+
+
+
+Automação e Agentes:
+1- Criar sistemas que leem dados, tomam decisões e chamam APIs.
+2- Automatizar processos internos.
+3- Testar hipóteses de forma rápida.
+4- LLMs entram como cérebro dentro do fluxo.
+
+
+  
+Suporte a produto:
+1- Geração de textos para lojas.
+2- Classificação de conteúdos.
+3- Sumarização de tickets internos.
+4- Detecção automática de categorias.
+
+
+  
+Ferramentas internas para engenharia:
+1- Explicar erros e logs.
+2- Ler códigos e gerar sugestões.
+3- Criar documentação técnica automaticamente.
+4- Auxiliar debugging e observabilidade.
+
+
+  
+Experimentação:
+1- Ciclos rápidos de protótipo.
+2- Refinamento de prompts.
+3- Comparação entre modelos.
+4- Análise de impacto.
+
+
+
+  
+Resumão:
+
+Dentro do iFood, os LLMs não são usados só para conversar, eles são peças fundamentais dentro de sistemas maiores.
+Eles ajudam times a analisar dados, automatizar fluxos, integrar serviços e acelerar tomadas de decisão.
+O Toqan é a plataforma onde esses agentes e automações ganham vida, combinando IA, APIs e dados dentro de um ambiente único, pensado para experimentação rápida e impacto real.
