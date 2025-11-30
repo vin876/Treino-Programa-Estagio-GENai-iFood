@@ -28,3 +28,4 @@ avaliacoes [
 {"NOME": "DIJALMA", "PAGAMENTO": False, "DESCONTO": "POSSUI"},
 ]
 
+for a in avaliacoes:
