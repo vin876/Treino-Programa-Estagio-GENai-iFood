@@ -39,7 +39,7 @@ Estrutura do Repositório
 
 ---
 
-3: GenAI (IA Generativa + Python + Gemini)**
+3: GenAI (IA Generativa + Python + Gemini)
 Mini projetos com uso REAL de IA:
 - Agente de insights automatizados
 - Correção automática de queries
@@ -62,7 +62,7 @@ Problemas de lógica e de negócios simulando:
 
 5: Diário de Progresso
 Registro da minha evolução.
-Mostra disciplina, mentalidade de dono e consistência.
+
 
 
 ---
@@ -75,5 +75,4 @@ Estudar de forma prática e aplicar:
 - SQL para análise de dados
 - Python aplicado
 - IA Generativa para resolver problemas
-
-Esse repositório reflete meu interesse genuíno em construir, aprender e entregar valor  do jeito iFood de ser.  
+ 
